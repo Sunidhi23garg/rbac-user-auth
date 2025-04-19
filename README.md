@@ -57,21 +57,21 @@ A Node.js and Express.js application implementing Role-Based Access Control (RBA
 - Node.js (v14 or higher)  
 - MongoDB installed locally or MongoDB Atlas (for cloud)
 
-### Steps
-# 1. Clone the repository
+### Steps:
+### 1. Clone the repository
 git clone https://github.com/Sunidhi23garg/rbac-user-auth.git  
 cd rbac-user-auth
 
-# 2. Create environment variables
-# Create a `.env` file in the root and add:
+### 2. Create environment variables
+Create a `.env` file in the root and add:
 PORT=9000  
 MONGO_URI=mongodb://localhost:27017/rbac_auth  
 SESSION_SECRET=your_session_secret
 
-# 3. Install dependencies
+### 3. Install dependencies
 npm install
 
-# 4. Start the server with `npm run dev`  
+### 4. Start the server with `npm run dev`  
 Then visit: [http://localhost:9000](http://localhost:9000)
 
 ## 🖥️ Usage
