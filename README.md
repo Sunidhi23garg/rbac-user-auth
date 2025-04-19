@@ -64,16 +64,15 @@ cd rbac-user-auth
 
 # 2. Create environment variables
 # Create a `.env` file in the root and add:
-PORT=9000
-MONGO_URI=mongodb://localhost:27017/rbac_auth
+PORT=9000  
+MONGO_URI=mongodb://localhost:27017/rbac_auth  
 SESSION_SECRET=your_session_secret
 
 # 3. Install dependencies
 npm install
 
-# 4. Start the server
-npm run dev
-Visit: http://localhost:9000
+# 4. Start the server with `npm run dev`  
+Then visit: [http://localhost:9000](http://localhost:9000)
 
 🖥️ Usage
 Register via /register with a username, email, and password
@@ -119,14 +118,19 @@ You're most welcome to contribute to this project! Here’s how you can help:
 Feel free to explore the code, experiment, and make it better.
 Every contribution matters — big or small! 💖
 
-🧪 Testing
+## 🧪 Testing
+
 You can add unit and integration tests to ensure the application works correctly.
 
-Suggested Tools
-Jest
-Supertest
+### 🔧 Suggested Tools
 
-Example Test (Basic):
+- [Jest](https://jestjs.io/)  
+- [Supertest](https://github.com/visionmedia/supertest)
+
+---
+
+### 🧪 Example Test (Basic)
+
 const request = require('supertest');
 const app = require('../app');
 
