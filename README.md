@@ -63,7 +63,7 @@ git clone https://github.com/Sunidhi23garg/rbac-user-auth.git
 cd rbac-user-auth
 
 ### 2. Create environment variables
-Create a `.env` file in the root and add:
+Create a `.env` file in the root and add:  
 PORT=9000  
 MONGO_URI=mongodb://localhost:27017/rbac_auth  
 SESSION_SECRET=your_session_secret
@@ -113,7 +113,7 @@ You're most welcome to contribute to this project! Here’s how you can help:
 - 📦 Suggest better structure or optimizations  
 
 Feel free to explore the code, experiment, and make it better.
-Every contribution matters — big or small! 💖
+# Every contribution matters — big or small! 💖
 
 ## 🧪 Testing
 
