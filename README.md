@@ -131,7 +131,7 @@ You can add unit and integration tests to ensure the application works correctly
 
 ### 🧪 Example Test (Basic)
 
-const request = require('supertest');
+const request = require('supertest');  
 const app = require('../app');
 
 test('GET / should return status 200', async () => {
