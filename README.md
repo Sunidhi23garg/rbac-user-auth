@@ -59,7 +59,7 @@ A Node.js and Express.js application implementing Role-Based Access Control (RBA
 
 ### Steps
 # 1. Clone the repository
-git clone https://github.com/Sunidhi23garg/rbac-user-auth.git
+git clone https://github.com/Sunidhi23garg/rbac-user-auth.git  
 cd rbac-user-auth
 
 # 2. Create environment variables
@@ -75,15 +75,12 @@ npm install
 Then visit: [http://localhost:9000](http://localhost:9000)
 
 🖥️ Usage
-Register via /register with a username, email, and password
+- Register via /register with a username, email, and password
+- Log in via /login
+- Role-specific pages are shown based on assigned role (Admin/ CLient/ Moderator)
+- Admins can manage users
 
-Log in via /login
 
-Role-specific pages are shown based on assigned role (Admin/ CLient/ Moderator)
-
-Admins can manage users
-
-🚀 Features
 ## 🚀 Features
 
 - User registration and login
@@ -94,9 +91,9 @@ Admins can manage users
 - Error handling for 404 and access denied pages
 - Logout functionality
 
-🙌 Credits
+## 🙌 Credits
 This project was developed by:
-Sunidhi Garg – Lead Developer
+Sunidhi Garg – Lead Developer  
 GitHub: @Sunidhi23garg
 
 Special thanks to:
