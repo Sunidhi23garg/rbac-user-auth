@@ -1,0 +1,24 @@
+<%- include('./layouts/header') %>
+
+<section class="hero">
+  <h1>🚀 Welcome to the RBAC System</h1>
+  <p class="subtitle">Secure role-based access for Admins, Moderators, and Clients</p>
+</section>
+
+<section class="description">
+  <% if (user) { %>
+    <div class="user-info">
+      <p>Hello, <strong><%= user.name %></strong>! 👋</p>
+      <p>You are logged in as <span class="role"><%= user.role.toUpperCase() %></span>.</p>
+      <p>Use the navbar to explore the features available for your role.</p>
+    </div>
+  <% } else { %>
+    <div class="cta">
+      <p>This application demonstrates secure login, session persistence, and role-based access using PassportJS and MongoDB.</p>
+      <a href="/auth/login" class="btn">Login</a>
+      <a href="/auth/register" class="btn-outline">Register</a>
+    </div>
+  <% } %>
+</section>
+
+<%- include('./layouts/footer') %>
