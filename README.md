@@ -74,7 +74,7 @@ npm install
 # 4. Start the server with `npm run dev`  
 Then visit: [http://localhost:9000](http://localhost:9000)
 
-🖥️ Usage
+## 🖥️ Usage
 - Register via /register with a username, email, and password
 - Log in via /login
 - Role-specific pages are shown based on assigned role (Admin/ CLient/ Moderator)
